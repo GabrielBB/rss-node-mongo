@@ -1,2 +1,2 @@
-# RSS-to-NodeJS-to-MongoDB
-A base example project for requesting and parsing a RSS feed from Node JS and bulking new posts to MongoDB. Posts that are already in the database will be ignored
+# RNM: RSS > Node JS > Mongo DB
+RNM is a Node JS module to request and parse a RSS feed and save the contents to Mongo DB. It makes sure only the new content is appended to your collection. You only provide the RSS URI and your database connection string and it is done.

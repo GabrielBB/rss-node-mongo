@@ -1,0 +1,5 @@
+{
+    "rss": "http://www.feedforall.com/sample.xml",
+    "db": "mongodb://localhost:27017/rss",
+    "collection": "feeds"
+}
