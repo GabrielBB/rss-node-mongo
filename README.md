@@ -19,7 +19,7 @@ rss.work(function (err, success) {
 })
 ```
 
-####**properties**
+**properties**
 This parameter can have the following properties:
 
  - `rss`: The RSS URL
@@ -28,7 +28,7 @@ This parameter can have the following properties:
  
  - `collection`: Name for the collection where items will be saved (if not provided then it creates a collection named "feeds")
 
-####**success**
+**success**
 This object has the following properties: 
 
  - `saved`: Number of items that were inserted to database
@@ -41,9 +41,11 @@ This object has the following properties:
 You can also pass a function as a second parameter of the class
 ```javascript
 const rss = new RSSToMongo(properties, function(item) { 
-	// This function will be called for every item. You can add, delete and modify properties of each item and it will be inserted with those changes to the database. For example you might want to have something different as an _id:
+	// This function will be called for every item. 
+	//You can add, delete and modify properties of each item and it will be inserted with those changes to the database. 
+	//For example you might want to have something different as an _id:
 
-item._id = item.link;
+	item._id = item.link;
 
 })
 ```
