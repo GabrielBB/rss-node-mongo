@@ -19,7 +19,7 @@ rss.work(function (err, success) {
 })
 ```
 
-####**properties**
+**properties**
 
  - `rss`: The RSS URL
  
