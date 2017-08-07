@@ -1,6 +1,6 @@
 {
   "name": "rss-node-mongo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "RNM is a Node JS module to request and parse a RSS feed and save the contents to Mongo DB. It makes sure only the new content is appended to your collection. You only provide the RSS URI and your database connection string and it is done",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
