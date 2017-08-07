@@ -37,7 +37,8 @@ This object has the following properties:
  
  - `ignored`: Number of items that were ignored because they were already in the database collection
 
-##Further
+## Further
+
 You can also pass a function as a second parameter of the class
 ```javascript
 const rss = new RSSToMongo(properties, function(item) { 
