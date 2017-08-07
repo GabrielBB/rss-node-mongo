@@ -20,6 +20,7 @@ rss.work(function (err, success) {
 ```
 
 **properties**
+
 This parameter can have the following properties:
 
  - `rss`: The RSS URL
@@ -29,6 +30,7 @@ This parameter can have the following properties:
  - `collection`: Name for the collection where items will be saved (if not provided then it creates a collection named "feeds")
 
 **success**
+
 This object has the following properties: 
 
  - `saved`: Number of items that were inserted to database
