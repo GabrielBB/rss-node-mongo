@@ -42,15 +42,14 @@ This object has the following properties:
 
 ## Further
 
-You can also pass a function as a second parameter of the class
+You can also pass a function as a second parameter of the class that will be called for each retrieved item.
 ```javascript
 const rss = new RSSToMongo(properties, function(item) { 
-	// This function will be called for every item. 
-	//You can add, delete and modify properties of each item and it will be inserted with those changes to the database. 
-	//For example you might want to have something different as an _id:
+	// The item will be inserted with the changes you make here to the database. 
 
-	item._id = item.link;
-
+	item._id = item.link; // For example, you might want your _id to be something else
+	item["PutNewPropertyNameHere"] = "I'm additional": // Or Add an additional property
+	// Or remove special characters from the item content
 })
 ```
 
