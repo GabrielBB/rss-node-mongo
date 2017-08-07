@@ -1,6 +1,6 @@
 # rss-node-mongo
 
-RNM is a Node JS module to request and parse a RSS feed and save the contents to Mongo DB. It makes sure only the new content is appended to your collection. You only provide the RSS URI and your database connection string and it is done.
+RNM is a Node JS module to request and parse RSS feeds and save the contents to Mongo DB. It makes sure only the new content is appended to your collection. You only provide the RSS URI and your database connection string and it is done.
 
 Important Note: This module is only for version 8 of Node JS. We are working on a new version with backward compatibility
  
