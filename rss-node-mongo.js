@@ -58,7 +58,8 @@ class RSSToMongo {
             item._id = item.guid;
             
             if (this.onItemRead) {
-                this.entries.push(this.onItemRead(item)) // Oh, they wanna do something with each item? Go ahead
+                let freshItem = this.onItemRead(item); // Oh, they wanna do something with each item? Go ahead
+                this.entries.push(freshItem ? freshItem : item) 
             } else {
                 this.entries.push(item)
             }
