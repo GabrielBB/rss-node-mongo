@@ -9,6 +9,6 @@
   "author": "Gabriel Basilio Brito",
   "license": "ISC",
   "dependencies": {
-    "rss-node-mongo": "^1.0.2"
+    "rss-node-mongo": "^1.0.3"
   }
 }
