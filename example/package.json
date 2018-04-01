@@ -1,0 +1,14 @@
+{
+  "name": "rss-node-mongo-example",
+  "version": "1.0.0",
+  "description": "How to use RSS-NODE-MONGO package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Basilio Brito",
+  "license": "ISC",
+  "dependencies": {
+    "rss-node-mongo": "^1.0.2"
+  }
+}

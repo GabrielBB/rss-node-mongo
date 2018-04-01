@@ -1,4 +1,4 @@
-const RSSToMongo = require('../rss-node-mongo');
+const RSSToMongo = require('rss-node-mongo');
 const props = require('./properties'); // properties.json located in the same folder
 
 const rss = new RSSToMongo(props)

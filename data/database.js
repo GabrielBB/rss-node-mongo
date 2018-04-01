@@ -16,6 +16,8 @@ class Database {
         let savedPosts = posts.length;
 
         try {
+            await conn.createCollection(this.collectionName);
+
             const collection = conn.collection(this.collectionName)
 
             await collection.insertMany(posts, { ordered: false });
